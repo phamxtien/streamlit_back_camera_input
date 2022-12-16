@@ -1,5 +1,5 @@
 # streamlit_back_camera_input
-Streamlit camera input with back camera as default 
+Streamlit camera input with back camera as default  
 Just touch on video area to take a picture
 
 
