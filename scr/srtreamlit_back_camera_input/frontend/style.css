@@ -1,0 +1,16 @@
+video {width: 100%;}
+canvas {width:100%;}
+
+button:hover {
+  border-color: rgb(255, 75, 75);
+  color: rgb(255, 75, 75);
+}
+button:active {
+  color: rgb(255, 255, 255);
+  border-color: rgb(255, 75, 75);
+  background-color: rgb(255, 75, 75);
+}
+
+.padding {
+  height: 100px;
+}
