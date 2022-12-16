@@ -17,9 +17,7 @@ function sendValue(value) {
     if (!window.rendered) {
       // You most likely want to get the data passed in like this
       var { height, width } = event.detail.args;
-      
-      Streamlit.setFrameHeight(height);
-      
+           
       let video = document.getElementById('video');
       let canvas = document.getElementById('canvas');
   
@@ -47,6 +45,8 @@ function sendValue(value) {
         sendValue(data);
       }      
       
+      Streamlit.setFrameHeight(height);
+        
       video.addEventListener('click', takePicture);
       window.rendered = true
     }
