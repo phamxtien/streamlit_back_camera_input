@@ -2,7 +2,7 @@
 Streamlit camera input with back camera as default  
 Just touch on video area to take a picture
 ![image](image.png)
-
+Notes: It only works with https 
 ## Installation:
 ```
 pip install streamlit-back-camera-input
